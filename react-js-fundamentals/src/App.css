@@ -1,0 +1,13 @@
+.app-container {
+  padding: 16px;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+.text-xl {
+  font-size: 1.25rem;
+}
+.text-2xl {
+  font-size: 1.5rem;
+}
