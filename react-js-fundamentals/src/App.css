@@ -2,6 +2,16 @@
   padding: 16px;
 }
 
+.font-medium {
+  font-weight: 500;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.font-bold {
+  font-weight: 700;
+}
+
 .text-lg {
   font-size: 1.125rem;
 }
