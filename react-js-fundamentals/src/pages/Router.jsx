@@ -9,6 +9,7 @@ function Router() {
           <li><Link to={"/introduction"}>Introduction to React.js</Link></li>
           <li><Link to={"/functional-component"}>Functional component</Link></li>
           <li><Link to={"/class-component"}>Class component</Link></li>
+          <li><Link to={"/jsx"}>JSX & createElement() method</Link></li>
         </ul>
       </details>
     </div>
