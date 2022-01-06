@@ -10,6 +10,8 @@ function Router() {
           <li><Link to={"/functional-component"}>Functional component</Link></li>
           <li><Link to={"/class-component"}>Class component</Link></li>
           <li><Link to={"/jsx"}>JSX & createElement() method</Link></li>
+          <li><Link to={"/function-props"}>Passing props to functional component</Link></li>
+          <li><Link to={"/class-props"}>Passing props to class component</Link></li>
         </ul>
       </details>
     </div>
