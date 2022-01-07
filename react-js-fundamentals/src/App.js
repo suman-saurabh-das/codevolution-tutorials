@@ -1,11 +1,13 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import "./App.css";
+
 // pages
 import Router from "./pages/Router";
-// components (section 01)
+
+// components (section_01)
 import Introduction from "./components/section_01/01_Introduction";
-// import Greet from "./components/section_01/Greet";     // default import
+// import Greet from "./components/section_01/02_Greet";  // default import
 import { Greet } from "./components/section_01/02_Greet"; // named import
 import Welcome from "./components/section_01/03_Welcome";
 import Hello from "./components/section_01/04_Hello";
@@ -13,6 +15,9 @@ import { FUNCTION_PROPS_NOTES } from "./components/section_01/05_GreetProps";
 import GreetProps from "./components/section_01/05_GreetProps";
 import { CLASS_PROPS_NOTES } from "./components/section_01/06_WelcomeProps";
 import WelcomeProps from "./components/section_01/06_WelcomeProps";
+
+// components (section_02)
+import Message from "./components/section_02/07_Message";
 
 function App() {
   return (
@@ -59,6 +64,11 @@ function App() {
                   </div>
                 }
               />
+            </>
+
+            {/* SECTION 02 */}
+            <>
+              <Route path="/class-state" element={<Message />} />
             </>
           </Routes>
         </div>

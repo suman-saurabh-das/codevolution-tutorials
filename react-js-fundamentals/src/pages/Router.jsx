@@ -14,6 +14,13 @@ function Router() {
           <li><Link to={"/class-props"}>Passing props to class component</Link></li>
         </ul>
       </details>
+
+      <details open>
+        <summary className="font-bold text-lg">Section 02</summary>
+        <ul>
+          <li><Link to={"/class-state"}>Creating state in class component</Link></li>
+        </ul>
+      </details>
     </div>
   );
 }
