@@ -19,6 +19,7 @@ function Router() {
         <summary className="font-bold text-lg">Section 02</summary>
         <ul>
           <li><Link to={"/class-state"}>Creating state in class component</Link></li>
+          <li><Link to={"/class-set-state"}>Updating state using setState() method</Link></li>
         </ul>
       </details>
     </div>

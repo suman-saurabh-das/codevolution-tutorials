@@ -18,6 +18,7 @@ import WelcomeProps from "./components/section_01/06_WelcomeProps";
 
 // components (section_02)
 import Message from "./components/section_02/07_Message";
+import Counter from "./components/section_02/08_Counter";
 
 function App() {
   return (
@@ -69,6 +70,7 @@ function App() {
             {/* SECTION 02 */}
             <>
               <Route path="/class-state" element={<Message />} />
+              <Route path="/class-set-state" element={<Counter />} />
             </>
           </Routes>
         </div>
