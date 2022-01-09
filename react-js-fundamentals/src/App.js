@@ -19,6 +19,8 @@ import WelcomeProps from "./components/section_01/06_WelcomeProps";
 // components (section_02)
 import Message from "./components/section_02/07_Message";
 import Counter from "./components/section_02/08_Counter";
+import GreetPropsDestructuring from "./components/section_02/09_GreetPropsDestructuring";
+import WelcomePropsDestructuring from "./components/section_02/10_WelcomePropsDestructuring";
 
 function App() {
   return (
@@ -71,6 +73,24 @@ function App() {
             <>
               <Route path="/class-state" element={<Message />} />
               <Route path="/class-set-state" element={<Counter />} />
+              <Route
+                path="/function-destructuring"
+                element={
+                  <GreetPropsDestructuring
+                    name="Tony Stark"
+                    heroName="Ironman"
+                  />
+                }
+              />
+              <Route
+                path="/class-destructuring"
+                element={
+                  <WelcomePropsDestructuring
+                    name="Steve Rogers"
+                    heroName="Captain America"
+                  />
+                }
+              />
             </>
           </Routes>
         </div>
