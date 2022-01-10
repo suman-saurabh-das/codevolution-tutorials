@@ -21,6 +21,8 @@ import Message from "./components/section_02/07_Message";
 import Counter from "./components/section_02/08_Counter";
 import GreetPropsDestructuring from "./components/section_02/09_GreetPropsDestructuring";
 import WelcomePropsDestructuring from "./components/section_02/10_WelcomePropsDestructuring";
+import FunctionClick from "./components/section_02/11_FunctionClick";
+import ClassClick from "./components/section_02/12_ClassClick";
 
 function App() {
   return (
@@ -91,6 +93,8 @@ function App() {
                   />
                 }
               />
+              <Route path="/function-event-handling" element={<FunctionClick />} />
+              <Route path="/class-event-handling" element={<ClassClick />} />
             </>
           </Routes>
         </div>

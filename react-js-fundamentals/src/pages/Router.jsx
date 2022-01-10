@@ -20,8 +20,10 @@ function Router() {
         <ul>
           <li><Link to={"/class-state"}>Creating state in class component</Link></li>
           <li><Link to={"/class-set-state"}>Updating state using setState() method</Link></li>
-          <li><Link to={"/function-destructuring"}>Destructuring in functional component</Link></li>
+          <li><Link to={"/function-destructuring"}>Destructuring in component</Link></li>
           <li><Link to={"/class-destructuring"}>Destructuring in class component</Link></li>
+          <li><Link to={"/function-event-handling"}>Event handling in functional component</Link></li>
+          <li><Link to={"/class-event-handling"}>Event handling in class component</Link></li>
         </ul>
       </details>
     </div>
