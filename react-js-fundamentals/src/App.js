@@ -23,6 +23,7 @@ import GreetPropsDestructuring from "./components/section_02/09_GreetPropsDestru
 import WelcomePropsDestructuring from "./components/section_02/10_WelcomePropsDestructuring";
 import FunctionClick from "./components/section_02/11_FunctionClick";
 import ClassClick from "./components/section_02/12_ClassClick";
+import EventBind from "./components/section_02/13_EventBind";
 
 function App() {
   return (
@@ -95,6 +96,7 @@ function App() {
               />
               <Route path="/function-event-handling" element={<FunctionClick />} />
               <Route path="/class-event-handling" element={<ClassClick />} />
+              <Route path="/class-event-binding" element={<EventBind />} />
             </>
           </Routes>
         </div>
