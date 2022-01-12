@@ -24,6 +24,7 @@ import WelcomePropsDestructuring from "./components/section_02/10_WelcomePropsDe
 import FunctionClick from "./components/section_02/11_FunctionClick";
 import ClassClick from "./components/section_02/12_ClassClick";
 import EventBind from "./components/section_02/13_EventBind";
+import ParentComponent from "./components/section_02/14_ParentComponent";
 
 function App() {
   return (
@@ -97,6 +98,7 @@ function App() {
               <Route path="/function-event-handling" element={<FunctionClick />} />
               <Route path="/class-event-handling" element={<ClassClick />} />
               <Route path="/class-event-binding" element={<EventBind />} />
+              <Route path="/passing-methods-as-props" element={<ParentComponent />} />
             </>
           </Routes>
         </div>

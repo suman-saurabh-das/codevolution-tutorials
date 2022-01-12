@@ -25,6 +25,7 @@ function Router() {
           <li><Link to={"/function-event-handling"}>Event handling in functional component</Link></li>
           <li><Link to={"/class-event-handling"}>Event handling in class component</Link></li>
           <li><Link to={"/class-event-binding"}>Binding event handler in class component</Link></li>
+          <li><Link to={"/passing-methods-as-props"}>Passing method as props</Link></li>
         </ul>
       </details>
     </div>
