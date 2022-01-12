@@ -56,6 +56,7 @@ class Message extends Component {
     return (
       <div>
         <ReactMarkdown>{NOTES}</ReactMarkdown>
+        <hr />
         <h4>{this.state.message}</h4>
         <button onClick={() => this.changeMessage()}>Subscribe</button>
       </div>

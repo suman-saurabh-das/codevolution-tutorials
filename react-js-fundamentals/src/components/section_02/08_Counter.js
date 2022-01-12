@@ -81,8 +81,10 @@ class Counter extends Component {
     return (
       <div>
         <ReactMarkdown>{NOTES}</ReactMarkdown>
+        <hr />
         <h3>Count - {this.state.count}</h3>
         <button onClick={() => this.incrementCount()}>Increment by 1</button>
+        &emsp;
         <button onClick={() => this.incrementCountFive()}>
           Increment By 5
         </button>

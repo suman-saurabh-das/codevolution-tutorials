@@ -11,12 +11,13 @@ const NOTES = `
 
 class ClassClick extends Component {
   clickHandler() {
-    console.log("Button clicked from class component");
+    alert("Button clicked from class component");
   }
   render() {
     return (
       <div>
         <ReactMarkdown>{NOTES}</ReactMarkdown>
+        <hr />
         <button onClick={this.clickHandler}>Class Click</button>
       </div>
     );

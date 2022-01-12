@@ -29,6 +29,7 @@ function GreetPropsDestructuring(props) {
   return (
     <div>
       <ReactMarkdown>{NOTES}</ReactMarkdown>
+      <hr />
       <h4>Hello {name} a.k.a {heroName}</h4>
     </div>
   );

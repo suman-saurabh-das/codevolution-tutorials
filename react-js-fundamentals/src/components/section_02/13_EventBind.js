@@ -65,6 +65,7 @@ class EventBind extends Component {
     return (
       <div>
         <ReactMarkdown>{NOTES}</ReactMarkdown>
+        <hr />
         <h2>{this.state.message}</h2>
         {/* Method 1: Use bind keyword and bind the handler in the render method */}
         {/* <button onClick={this.clickHandler.bind(this)}>Log Off !</button> */}

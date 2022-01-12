@@ -2,8 +2,7 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 
 const NOTES = `
-- We will use the \`React.createElement("param1", "param2", "param3");\`  
-  method to create a functional component, which accepts minimum 3 parameters -
+- We will use the \`React.createElement("param1", "param2", "param3");\` method to create a functional component, which accepts minimum 3 parameters -
   - 1. tag name
   - 2. attributes & properties (optional properties to be passed as an object)
   - 3. children for the tag name ⇾ element node / text node / comment node

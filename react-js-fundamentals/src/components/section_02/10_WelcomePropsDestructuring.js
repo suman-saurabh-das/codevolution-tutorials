@@ -15,6 +15,7 @@ class WelcomePropsDestructuring extends Component {
     return (
       <div>
         <ReactMarkdown>{NOTES}</ReactMarkdown>
+        <hr />
         <h4>Hi {name} a.k.a {heroName}</h4>
       </div>
     );

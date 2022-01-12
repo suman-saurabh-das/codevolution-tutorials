@@ -28,6 +28,7 @@ class ParentComponent extends Component {
     return (
       <div>
         <ReactMarkdown>{NOTES}</ReactMarkdown>
+        <hr />
         <ChildComponent greetHandler={this.greetHandler} />
       </div>
     );

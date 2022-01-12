@@ -47,6 +47,7 @@ function App() {
                 element={
                   <div>
                     <ReactMarkdown>{FUNCTION_PROPS_NOTES}</ReactMarkdown>
+                    <hr />
                     <GreetProps name={"Bruce"} heroName={"Batman"}>
                       <p>
                         I believe what doesn't kill you simply makes you,
@@ -65,6 +66,7 @@ function App() {
                 element={
                   <div>
                     <ReactMarkdown>{CLASS_PROPS_NOTES}</ReactMarkdown>
+                    <hr />
                     <WelcomeProps name={"Tony"} heroName={"Iron man"} />
                     <WelcomeProps name={"Steve"} heroName={"Captain America"} />
                     <WelcomeProps name={"Peter"} heroName={"Spider man"} />

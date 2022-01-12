@@ -15,11 +15,12 @@ const NOTES = `
 
 function FunctionClick() {
   function clickHandler() {
-    console.log("Button clicked from functional component");
+    alert("Button clicked from functional component");
   }
   return (
     <div>
       <ReactMarkdown>{NOTES}</ReactMarkdown>
+      <hr />
       <button onClick={clickHandler}>Function Click</button>
     </div>
   );
