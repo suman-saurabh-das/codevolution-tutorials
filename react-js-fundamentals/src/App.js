@@ -26,6 +26,9 @@ import ClassClick from "./components/section_02/12_ClassClick";
 import EventBind from "./components/section_02/13_EventBind";
 import ParentComponent from "./components/section_02/14_ParentComponent";
 
+// components (section_03)
+import UserGreeting from "./components/section_03/15_UserGreeting";
+
 function App() {
   return (
     <div className="App">
@@ -101,6 +104,11 @@ function App() {
               <Route path="/class-event-handling" element={<ClassClick />} />
               <Route path="/class-event-binding" element={<EventBind />} />
               <Route path="/passing-methods-as-props" element={<ParentComponent />} />
+            </>
+
+            {/* SECTION 03 */}
+            <>
+              <Route path="/conditional-rendering" element={<UserGreeting />} />
             </>
           </Routes>
         </div>

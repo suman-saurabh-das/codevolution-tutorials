@@ -28,6 +28,13 @@ function Router() {
           <li><Link to={"/passing-methods-as-props"}>Passing method as props</Link></li>
         </ul>
       </details>
+
+      <details open>
+        <summary className="font-bold text-lg">Section 03</summary>
+        <ul>
+          <li><Link to={"/conditional-rendering"}>Conditional rendering</Link></li>
+        </ul>
+      </details>
     </div>
   );
 }
