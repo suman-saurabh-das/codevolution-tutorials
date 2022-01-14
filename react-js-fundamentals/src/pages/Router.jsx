@@ -33,6 +33,7 @@ function Router() {
         <summary className="font-bold text-lg">Section 03</summary>
         <ul>
           <li><Link to={"/conditional-rendering"}>Conditional rendering</Link></li>
+          <li><Link to={"/list-rendering"}>List rendering</Link></li>
         </ul>
       </details>
     </div>

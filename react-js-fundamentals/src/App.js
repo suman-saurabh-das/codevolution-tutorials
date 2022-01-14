@@ -28,6 +28,7 @@ import ParentComponent from "./components/section_02/14_ParentComponent";
 
 // components (section_03)
 import UserGreeting from "./components/section_03/15_UserGreeting";
+import NameList from "./components/section_03/16_NameList";
 
 function App() {
   return (
@@ -109,6 +110,7 @@ function App() {
             {/* SECTION 03 */}
             <>
               <Route path="/conditional-rendering" element={<UserGreeting />} />
+              <Route path="/list-rendering" element={<NameList />} />
             </>
           </Routes>
         </div>
