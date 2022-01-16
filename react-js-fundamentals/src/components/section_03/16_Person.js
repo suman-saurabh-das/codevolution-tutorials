@@ -1,11 +1,11 @@
 import React from "react";
 
 // Person component is only responsible for rendering the data which it gets from the parent.
-// function Person({ person }) {
-function Person({ person, key }) {
+function Person({ person }) {
+// function Person({ person, key }) {
   return (
     <div>
-      {key}
+      {/* {key} */}
       <h2>
         I am {person.name}. I am {person.age} years old. I know {person.skill}.
       </h2>
