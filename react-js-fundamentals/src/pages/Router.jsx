@@ -34,6 +34,7 @@ function Router() {
         <ul>
           <li><Link to={"/conditional-rendering"}>Conditional rendering</Link></li>
           <li><Link to={"/list-rendering"}>List rendering</Link></li>
+          <li><Link to={"/styling"}>Styling & CSS basics</Link></li>
         </ul>
       </details>
     </div>

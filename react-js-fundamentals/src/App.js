@@ -29,6 +29,10 @@ import ParentComponent from "./components/section_02/14_ParentComponent";
 // components (section_03)
 import UserGreeting from "./components/section_03/15_UserGreeting";
 import NameList from "./components/section_03/16_NameList";
+import Stylesheet from "./components/section_03/17_Stylesheet";
+import InlineStyles from "./components/section_03/17_InlineStyles";
+import "./components/section_03/styles/17_appStyles.css";
+import styles from "./components/section_03/styles/17_appStyles.module.css";
 
 function App() {
   return (
@@ -111,6 +115,17 @@ function App() {
             <>
               <Route path="/conditional-rendering" element={<UserGreeting />} />
               <Route path="/list-rendering" element={<NameList />} />
+              <Route
+                path="/styling"
+                element={
+                  <div>
+                    <Stylesheet primary={true} />
+                    <InlineStyles />
+                    <h3 className="error">Error Message</h3>
+                    <h3 className={styles.success}>Yay ! Success</h3>
+                  </div>
+                }
+              />
             </>
           </Routes>
         </div>
