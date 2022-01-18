@@ -33,6 +33,7 @@ import Stylesheet from "./components/section_03/17_Stylesheet";
 import InlineStyles from "./components/section_03/17_InlineStyles";
 import "./components/section_03/styles/17_appStyles.css";
 import styles from "./components/section_03/styles/17_appStyles.module.css";
+import Form from "./components/section_03/18_Form";
 
 function App() {
   return (
@@ -126,6 +127,7 @@ function App() {
                   </div>
                 }
               />
+              <Route path="/form-handling" element={<Form />} />
             </>
           </Routes>
         </div>
