@@ -35,6 +35,10 @@ import "./components/section_03/styles/17_appStyles.css";
 import styles from "./components/section_03/styles/17_appStyles.module.css";
 import Form from "./components/section_03/18_Form";
 
+// components (section_04)
+import LifecycleMethods from "./components/section_04/19_LifecycleMethods";
+import LifecycleA from "./components/section_04/20_LifecycleA";
+
 function App() {
   return (
     <div className="App">
@@ -128,6 +132,12 @@ function App() {
                 }
               />
               <Route path="/form-handling" element={<Form />} />
+            </>
+
+            {/* SECTION 04 */}
+            <>
+              <Route path="/lifecycle-methods" element={<LifecycleMethods />} />
+              <Route path="/mounting-lifecycle-methods" element={<LifecycleA />} />
             </>
           </Routes>
         </div>

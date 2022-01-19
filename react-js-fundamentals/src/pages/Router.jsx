@@ -38,6 +38,15 @@ function Router() {
           <li><Link to={"/form-handling"}>Basics of form handling</Link></li>
         </ul>
       </details>
+
+      <details open>
+        <summary className="font-bold text-lg">Section 04</summary>
+        <ul>
+          <li><Link to={"/conditional-rendering"}>Conditional rendering</Link></li>
+          <li><Link to={"/lifecycle-methods"}>Lifecycle methods</Link></li>
+          <li><Link to={"/mounting-lifecycle-methods"}>Mounting lifecycle methods</Link></li>
+        </ul>
+      </details>
     </div>
   );
 }
