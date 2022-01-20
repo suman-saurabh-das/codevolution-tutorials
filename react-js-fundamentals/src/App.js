@@ -38,6 +38,7 @@ import Form from "./components/section_03/18_Form";
 // components (section_04)
 import LifecycleMethods from "./components/section_04/19_LifecycleMethods";
 import LifecycleA from "./components/section_04/20_LifecycleA";
+import LifecycleC from "./components/section_04/21_LifecycleC";
 
 function App() {
   return (
@@ -138,6 +139,7 @@ function App() {
             <>
               <Route path="/lifecycle-methods" element={<LifecycleMethods />} />
               <Route path="/mounting-lifecycle-methods" element={<LifecycleA />} />
+              <Route path="/updating-lifecycle-methods" element={<LifecycleC />} />
             </>
           </Routes>
         </div>

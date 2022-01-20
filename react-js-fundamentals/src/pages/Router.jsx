@@ -45,6 +45,7 @@ function Router() {
           <li><Link to={"/conditional-rendering"}>Conditional rendering</Link></li>
           <li><Link to={"/lifecycle-methods"}>Lifecycle methods</Link></li>
           <li><Link to={"/mounting-lifecycle-methods"}>Mounting lifecycle methods</Link></li>
+          <li><Link to={"/updating-lifecycle-methods"}>Updating lifecycle methods</Link></li>
         </ul>
       </details>
     </div>
