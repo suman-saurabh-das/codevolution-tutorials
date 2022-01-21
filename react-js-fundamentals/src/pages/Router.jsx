@@ -46,6 +46,7 @@ function Router() {
           <li><Link to={"/lifecycle-methods"}>Lifecycle methods</Link></li>
           <li><Link to={"/mounting-lifecycle-methods"}>Mounting lifecycle methods</Link></li>
           <li><Link to={"/updating-lifecycle-methods"}>Updating lifecycle methods</Link></li>
+          <li><Link to={"/react-fragments"}>React fragments</Link></li>
         </ul>
       </details>
     </div>
