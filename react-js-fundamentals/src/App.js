@@ -40,6 +40,7 @@ import LifecycleMethods from "./components/section_04/19_LifecycleMethods";
 import LifecycleA from "./components/section_04/20_LifecycleA";
 import LifecycleC from "./components/section_04/21_LifecycleC";
 import Fragments from "./components/section_04/22_Fragments";
+import PureParentComponent from "./components/section_04/23_PureParentComponent";
 
 function App() {
   return (
@@ -142,6 +143,7 @@ function App() {
               <Route path="/mounting-lifecycle-methods" element={<LifecycleA />} />
               <Route path="/updating-lifecycle-methods" element={<LifecycleC />} />
               <Route path="/react-fragments" element={<Fragments />} />
+              <Route path="/pure-component" element={<PureParentComponent />} />
             </>
           </Routes>
         </div>
