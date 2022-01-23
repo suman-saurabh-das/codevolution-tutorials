@@ -48,6 +48,7 @@ function Router() {
           <li><Link to={"/updating-lifecycle-methods"}>Updating lifecycle methods</Link></li>
           <li><Link to={"/react-fragments"}>React fragments</Link></li>
           <li><Link to={"/pure-component"}>Pure components</Link></li>
+          <li><Link to={"/memo-component"}>Memo components</Link></li>
         </ul>
       </details>
     </div>

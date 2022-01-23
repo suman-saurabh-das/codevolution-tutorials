@@ -41,6 +41,7 @@ import LifecycleA from "./components/section_04/20_LifecycleA";
 import LifecycleC from "./components/section_04/21_LifecycleC";
 import Fragments from "./components/section_04/22_Fragments";
 import PureParentComponent from "./components/section_04/23_PureParentComponent";
+import MemoParentComponent from "./components/section_04/24_MemoParentComponent";
 
 function App() {
   return (
@@ -144,6 +145,7 @@ function App() {
               <Route path="/updating-lifecycle-methods" element={<LifecycleC />} />
               <Route path="/react-fragments" element={<Fragments />} />
               <Route path="/pure-component" element={<PureParentComponent />} />
+              <Route path="/memo-component" element={<MemoParentComponent />} />
             </>
           </Routes>
         </div>
