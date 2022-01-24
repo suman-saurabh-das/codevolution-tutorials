@@ -51,6 +51,14 @@ function Router() {
           <li><Link to={"/memo-component"}>Memo components</Link></li>
         </ul>
       </details>
+
+      <details open>
+        <summary className="font-bold text-lg">Section 05</summary>
+        <ul>
+          <li><Link to={"/create-ref"}>Ref using createRef() method</Link></li>
+          <li><Link to={"/callback-ref"}>Ref using callback ref method</Link></li>
+        </ul>
+      </details>
     </div>
   );
 }

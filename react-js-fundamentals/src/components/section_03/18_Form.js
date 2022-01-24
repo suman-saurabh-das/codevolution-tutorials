@@ -55,7 +55,7 @@ class Form extends Component {
         <hr />
         <h2>Job Application Form</h2>
         <form onSubmit={this.handleSubmit}>
-          <div>
+          <div style={{display: "flex", gap: "4px"}}>
             <label htmlFor="username">Username : </label>
             <input
               id="username"
@@ -65,11 +65,11 @@ class Form extends Component {
             />
           </div>
           <br />
-          <div>
+          <div style={{display: "flex", gap: "4px"}}>
             <label htmlFor="comments">Comments : </label>
             <textarea
               id="comments"
-              cols="19"
+              cols="21"
               rows="3"
               value={comments}
               onChange={this.handleCommentsChange}

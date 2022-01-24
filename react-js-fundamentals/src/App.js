@@ -43,6 +43,10 @@ import Fragments from "./components/section_04/22_Fragments";
 import PureParentComponent from "./components/section_04/23_PureParentComponent";
 import MemoParentComponent from "./components/section_04/24_MemoParentComponent";
 
+// components (section_05)
+import RefDemo1 from "./components/section_05/25_RefDemo1";
+import RefDemo2 from "./components/section_05/25_RefDemo2";
+
 function App() {
   return (
     <div className="App">
@@ -146,6 +150,12 @@ function App() {
               <Route path="/react-fragments" element={<Fragments />} />
               <Route path="/pure-component" element={<PureParentComponent />} />
               <Route path="/memo-component" element={<MemoParentComponent />} />
+            </>
+
+            {/* SECTION 05 */}
+            <>
+              <Route path="/create-ref" element={<RefDemo1 />} />  
+              <Route path="/callback-ref" element={<RefDemo2 />} />  
             </>
           </Routes>
         </div>
