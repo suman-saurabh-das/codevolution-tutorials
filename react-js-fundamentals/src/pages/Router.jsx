@@ -57,6 +57,7 @@ function Router() {
         <ul>
           <li><Link to={"/create-ref"}>Ref using createRef() method</Link></li>
           <li><Link to={"/callback-ref"}>Ref using callback ref method</Link></li>
+          <li><Link to={"/adding-ref-to-component"}>Adding ref to class component</Link></li>
         </ul>
       </details>
     </div>
