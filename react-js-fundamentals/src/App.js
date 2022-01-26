@@ -47,6 +47,7 @@ import MemoParentComponent from "./components/section_04/24_MemoParentComponent"
 import RefDemo1 from "./components/section_05/25_RefDemo1";
 import RefDemo2 from "./components/section_05/25_RefDemo2";
 import FocusInput from "./components/section_05/26_FocusInput";
+import ForwardRefParent from "./components/section_05/27_ForwardRefParent";
 
 function App() {
   return (
@@ -158,6 +159,7 @@ function App() {
               <Route path="/create-ref" element={<RefDemo1 />} />  
               <Route path="/callback-ref" element={<RefDemo2 />} />
               <Route path="/adding-ref-to-component" element={<FocusInput />} />
+              <Route path="/ref-forwarding" element={<ForwardRefParent />} />
             </>
           </Routes>
         </div>
