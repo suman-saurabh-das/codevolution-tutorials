@@ -59,6 +59,7 @@ function Router() {
           <li><Link to={"/callback-ref"}>Ref using callback ref method</Link></li>
           <li><Link to={"/adding-ref-to-component"}>Adding ref to class component</Link></li>
           <li><Link to={"/ref-forwarding"}>Forwarding ref to function component</Link></li>
+          <li><Link to={"/react-portal"}>React portals</Link></li>
         </ul>
       </details>
     </div>

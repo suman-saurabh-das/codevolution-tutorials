@@ -48,6 +48,8 @@ import RefDemo1 from "./components/section_05/25_RefDemo1";
 import RefDemo2 from "./components/section_05/25_RefDemo2";
 import FocusInput from "./components/section_05/26_FocusInput";
 import ForwardRefParent from "./components/section_05/27_ForwardRefParent";
+import PortalDemo from "./components/section_05/28_PortalDemo";
+import { REACT_PORTAL_NOTES } from "./components/section_05/28_PortalDemo";
 
 function App() {
   return (
@@ -120,10 +122,16 @@ function App() {
                   />
                 }
               />
-              <Route path="/function-event-handling" element={<FunctionClick />} />
+              <Route
+                path="/function-event-handling"
+                element={<FunctionClick />}
+              />
               <Route path="/class-event-handling" element={<ClassClick />} />
               <Route path="/class-event-binding" element={<EventBind />} />
-              <Route path="/passing-methods-as-props" element={<ParentComponent />} />
+              <Route
+                path="/passing-methods-as-props"
+                element={<ParentComponent />}
+              />
             </>
 
             {/* SECTION 03 */}
@@ -156,10 +164,20 @@ function App() {
 
             {/* SECTION 05 */}
             <>
-              <Route path="/create-ref" element={<RefDemo1 />} />  
+              <Route path="/create-ref" element={<RefDemo1 />} />
               <Route path="/callback-ref" element={<RefDemo2 />} />
               <Route path="/adding-ref-to-component" element={<FocusInput />} />
               <Route path="/ref-forwarding" element={<ForwardRefParent />} />
+              <Route
+                path="/react-portal"
+                element={
+                  <div>
+                    <ReactMarkdown>{REACT_PORTAL_NOTES}</ReactMarkdown>
+                    <hr />
+                    <PortalDemo />
+                  </div>
+                }
+              />
             </>
           </Routes>
         </div>
