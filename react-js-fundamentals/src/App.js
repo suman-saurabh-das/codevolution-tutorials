@@ -50,6 +50,9 @@ import FocusInput from "./components/section_05/26_FocusInput";
 import ForwardRefParent from "./components/section_05/27_ForwardRefParent";
 import PortalDemo from "./components/section_05/28_PortalDemo";
 import { REACT_PORTAL_NOTES } from "./components/section_05/28_PortalDemo";
+import Hero from "./components/section_05/29_Hero";
+import ErrorBoundary from "./components/section_05/29_ErrorBoundary";
+import { ERROR_BOUNDARY_NOTES } from "./components/section_05/29_ErrorBoundary";
 
 function App() {
   return (
@@ -175,6 +178,24 @@ function App() {
                     <ReactMarkdown>{REACT_PORTAL_NOTES}</ReactMarkdown>
                     <hr />
                     <PortalDemo />
+                  </div>
+                }
+              />
+              <Route
+                path="/error-boundary"
+                element={
+                  <div>
+                    <ReactMarkdown>{ERROR_BOUNDARY_NOTES}</ReactMarkdown>
+                    <hr />
+                    <ErrorBoundary>
+                      <Hero heroName="Ironman" />
+                    </ErrorBoundary>
+                    <ErrorBoundary>
+                      <Hero heroName="Thor" />
+                    </ErrorBoundary>
+                    <ErrorBoundary>
+                      <Hero heroName="Thanos" />
+                    </ErrorBoundary>
                   </div>
                 }
               />
