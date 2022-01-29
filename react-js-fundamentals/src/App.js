@@ -53,6 +53,9 @@ import { REACT_PORTAL_NOTES } from "./components/section_05/28_PortalDemo";
 import Hero from "./components/section_05/29_Hero";
 import ErrorBoundary from "./components/section_05/29_ErrorBoundary";
 import { ERROR_BOUNDARY_NOTES } from "./components/section_05/29_ErrorBoundary";
+import ClickCounter from "./components/section_05/30_ClickCounter";
+import HoverCounter from "./components/section_05/30_HoverCounter";
+import { HOC_NOTES } from "./components/section_05/30_HoverCounter";
 
 function App() {
   return (
@@ -196,6 +199,17 @@ function App() {
                     <ErrorBoundary>
                       <Hero heroName="Thanos" />
                     </ErrorBoundary>
+                  </div>
+                }
+              />
+              <Route
+                path="/higher-order-components"
+                element={
+                  <div>
+                    <ReactMarkdown>{HOC_NOTES}</ReactMarkdown>
+                    <hr />
+                    <ClickCounter />
+                    <HoverCounter />
                   </div>
                 }
               />

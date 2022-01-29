@@ -61,6 +61,7 @@ function Router() {
           <li><Link to={"/ref-forwarding"}>Forwarding ref to function component</Link></li>
           <li><Link to={"/react-portal"}>React portals</Link></li>
           <li><Link to={"/error-boundary"}>Error boundaries</Link></li>
+          <li><Link to={"/higher-order-components"}>Higher order components</Link></li>
         </ul>
       </details>
     </div>
