@@ -208,8 +208,8 @@ function App() {
                   <div>
                     <ReactMarkdown>{HOC_NOTES}</ReactMarkdown>
                     <hr />
-                    <ClickCounter />
-                    <HoverCounter />
+                    <ClickCounter name={"Saurabh"} />
+                    <HoverCounter name={"Saurabh"} />
                   </div>
                 }
               />

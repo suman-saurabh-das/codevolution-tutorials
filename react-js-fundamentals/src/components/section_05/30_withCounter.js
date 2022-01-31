@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 // const UpdatedComponent = (OriginalComponent) => {
-const withCounter = (WrappedComponent) => {
+const withCounter = (WrappedComponent, incrementVal = 1) => {
   // class NewComponent extends Component {
   class WithCounter extends Component {
     constructor(props) {
@@ -12,7 +12,7 @@ const withCounter = (WrappedComponent) => {
       };
     }
     incrementCount = () => {
-      this.setState((prevState) => ({ count: prevState.count + 1 }));
+      this.setState((prevState) => ({ count: prevState.count + incrementVal }));
     };
 
     render() {
@@ -21,6 +21,8 @@ const withCounter = (WrappedComponent) => {
         <WrappedComponent
           count={this.state.count}
           incrementCount={this.incrementCount}
+          {...this.props}
+          // Here HOC adds 2 props to the Wrapped component and passes the rest via spread operator
         />
       );
     }
