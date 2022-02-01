@@ -57,6 +57,10 @@ import ClickCounter from "./components/section_05/30_ClickCounter";
 import HoverCounter from "./components/section_05/30_HoverCounter";
 import { HOC_NOTES } from "./components/section_05/30_HoverCounter";
 
+// components (section_06)
+import ClickCounter2 from "./components/section_06/31_ClickCounter2";
+import HoverCounter2 from "./components/section_06/31_HoverCounter2";
+
 function App() {
   return (
     <div className="App">
@@ -210,6 +214,19 @@ function App() {
                     <hr />
                     <ClickCounter name={"Saurabh"} />
                     <HoverCounter name={"Saurabh"} />
+                  </div>
+                }
+              />
+            </>
+
+            {/* SECTION 06 */}
+            <>
+              <Route
+                path="/render-props"
+                element={
+                  <div>
+                    <ClickCounter2 />
+                    <HoverCounter2 />
                   </div>
                 }
               />
