@@ -60,6 +60,8 @@ import { HOC_NOTES } from "./components/section_05/30_HoverCounter";
 // components (section_06)
 import ClickCounter2 from "./components/section_06/31_ClickCounter2";
 import HoverCounter2 from "./components/section_06/31_HoverCounter2";
+import User from "./components/section_06/32_User";
+import RenderPropsCounter from "./components/section_06/32_RenderPropsCounter";
 
 function App() {
   return (
@@ -225,8 +227,30 @@ function App() {
                 path="/render-props"
                 element={
                   <div>
-                    <ClickCounter2 />
-                    <HoverCounter2 />
+                    <User name={(isLoggedIn) => (isLoggedIn ? "Saurabh" : "Guest")} />
+                    {/* Using render props */}
+                    {/* <RenderPropsCounter
+                      render={(count, incrementCount) => (
+                        <ClickCounter2 count={count} incrementCount={incrementCount} />
+                      )}
+                    />
+                    <RenderPropsCounter
+                      render={(count, incrementCount) => (
+                        <HoverCounter2 count={count} incrementCount={incrementCount} />
+                      )}
+                    /> */}
+
+                    {/* Using children props */}
+                    <RenderPropsCounter>
+                      {(count, incrementCount) => (
+                        <ClickCounter2 count={count} incrementCount={incrementCount} />
+                      )}
+                    </RenderPropsCounter>
+                    <RenderPropsCounter>
+                      {(count, incrementCount) => (
+                        <HoverCounter2 count={count} incrementCount={incrementCount} />
+                      )}
+                    </RenderPropsCounter>
                   </div>
                 }
               />
