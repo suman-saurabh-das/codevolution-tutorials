@@ -62,6 +62,8 @@ import ClickCounter2 from "./components/section_06/31_ClickCounter2";
 import HoverCounter2 from "./components/section_06/31_HoverCounter2";
 import User from "./components/section_06/32_User";
 import RenderPropsCounter from "./components/section_06/32_RenderPropsCounter";
+import Parent from "./components/section_06/components/33_Parent";
+import { UserProvider } from "./components/section_06/33_UserContext";
 
 function App() {
   return (
@@ -253,6 +255,10 @@ function App() {
                     </RenderPropsCounter>
                   </div>
                 }
+              />
+              <Route 
+                path="/context" 
+                element={<UserProvider value="Saurabh"><Parent /></UserProvider>}
               />
             </>
           </Routes>
