@@ -8,6 +8,37 @@
 - [Credits](#credits)
 
 ## Course Content
+- Section 01
+  - Introduction to React.
+  - Functional and Class components.
+  - Hooks update and JSX.
+  - Props and State.
+- Section 02
+  - setState method.
+  - Destructuring props and state.
+  - Event handling and Binding event handlers.
+  - Methods as props.
+- Section 03
+  - Conditional rendering.
+  - List rendering, list and keys.
+  - Index as key anti-pattern.
+  - Styling and CSS basics.
+  - Basics of form handling.
+- Section 04
+  - Component lifecycle methods
+  - Mounting and Updating lifecycle methods
+  - Fragments
+  - Pure components and memo
+- Section 05
+  - Refs, Refs with class components
+  - Forwarding Refs
+  - Portals
+  - Error boundary
+  - Higher order components
+- Section 06
+  - Render props
+  - Context
+  - HTTP GET and POST request
 
 ## Technologies Used
 `axios` `react.js` `react-router-dom` `react-markdown`
@@ -19,7 +50,7 @@
   - run the app `npm run start`
 
 ## Status
-- React JS Fundamentals is in progress.
+- React JS Fundamentals is completed in 5th February 2022.
 
 ## Credits
 List of contributors:

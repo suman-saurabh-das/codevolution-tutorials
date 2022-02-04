@@ -70,10 +70,10 @@ function Router() {
         <ul>
           <li><Link to={"/render-props"}>Render props pattern</Link></li>
           <li><Link to={"/context"}>React context (share data)</Link></li>
-          <li><Link to={"/http-get-request"}>HTTP Get request</Link></li>
+          <li><Link to={"/http-get-request"}>HTTP GET request</Link></li>
+          <li><Link to={"/http-post-request"}>HTTP POST request</Link></li>
         </ul>
       </details>
-      
     </div>
   );
 }
