@@ -64,6 +64,7 @@ import User from "./components/section_06/32_User";
 import RenderPropsCounter from "./components/section_06/32_RenderPropsCounter";
 import Parent from "./components/section_06/components/33_Parent";
 import { UserProvider } from "./components/section_06/33_UserContext";
+import PostList from "./components/section_06/34_PostList";
 
 function App() {
   return (
@@ -260,6 +261,7 @@ function App() {
                 path="/context" 
                 element={<UserProvider value="Saurabh"><Parent /></UserProvider>}
               />
+              <Route path="/http-get-request" element={<PostList />} />
             </>
           </Routes>
         </div>
