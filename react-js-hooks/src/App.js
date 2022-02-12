@@ -6,6 +6,8 @@ import Router from "./pages/Router";
 
 // components (section_01)
 import Introduction from "./components/section_01/01_Introduction";
+import ClassCounter1 from "./components/section_01/02_ClassCounter1";
+import HookCounter1 from "./components/section_01/02_HookCounter1";
 
 function App() {
   return (
@@ -20,6 +22,16 @@ function App() {
             {/* Section 01 */}
             <>
               <Route path="/introduction" element={<Introduction />} />
+              <Route
+                path="useState-hook"
+                element={
+                  <div>
+                    <ClassCounter1 />
+                    <hr />
+                    <HookCounter1 />
+                  </div>
+                }
+              />
             </>
           </Routes>
         </div>
