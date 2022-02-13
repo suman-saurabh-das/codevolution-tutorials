@@ -8,6 +8,8 @@ import Router from "./pages/Router";
 import Introduction from "./components/section_01/01_Introduction";
 import ClassCounter1 from "./components/section_01/02_ClassCounter1";
 import HookCounter1 from "./components/section_01/02_HookCounter1";
+import ClassCounter2 from "./components/section_01/03_ClassCounter2";
+import HookCounter2 from "./components/section_01/03_HookCounter2";
 
 function App() {
   return (
@@ -29,6 +31,16 @@ function App() {
                     <ClassCounter1 />
                     <hr />
                     <HookCounter1 />
+                  </div>
+                }
+              />
+              <Route
+                path="useState-hook-prev-state"
+                element={
+                  <div>
+                    <ClassCounter2 />
+                    <hr />
+                    <HookCounter2 />
                   </div>
                 }
               />

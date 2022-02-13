@@ -8,6 +8,7 @@ function Router() {
         <ul>
           <li><Link to={"/introduction"}>Introduction to react hooks</Link></li>
           <li><Link to={"/useState-hook"}>useState hook</Link></li>
+          <li><Link to={"/useState-hook-prev-state"}>useState hook (with previous state)</Link></li>
         </ul>
       </details>
     </div>
