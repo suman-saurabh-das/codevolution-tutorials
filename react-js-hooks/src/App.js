@@ -10,6 +10,7 @@ import ClassCounter1 from "./components/section_01/02_ClassCounter1";
 import HookCounter1 from "./components/section_01/02_HookCounter1";
 import ClassCounter2 from "./components/section_01/03_ClassCounter2";
 import HookCounter2 from "./components/section_01/03_HookCounter2";
+import HookCounter3 from "./components/section_01/04_HookCounter3";
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
             <>
               <Route path="/introduction" element={<Introduction />} />
               <Route
-                path="useState-hook"
+                path="useState"
                 element={
                   <div>
                     <ClassCounter1 />
@@ -35,7 +36,7 @@ function App() {
                 }
               />
               <Route
-                path="useState-hook-prev-state"
+                path="useState-with-prev-state"
                 element={
                   <div>
                     <ClassCounter2 />
@@ -44,6 +45,7 @@ function App() {
                   </div>
                 }
               />
+              <Route path="/useState-with-objects" element={<HookCounter3 />} />
             </>
           </Routes>
         </div>
