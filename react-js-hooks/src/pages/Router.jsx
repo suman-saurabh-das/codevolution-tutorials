@@ -10,6 +10,7 @@ function Router() {
           <li><Link to={"/useState"}>useState hook</Link></li>
           <li><Link to={"/useState-with-prev-state"}>useState hook (with previous state)</Link></li>
           <li><Link to={"/useState-with-objects"}>useState hook (with previous state)</Link></li>
+          <li><Link to={"/useState-with-arrays"}>useState hook (with arrays)</Link></li>
         </ul>
       </details>
     </div>

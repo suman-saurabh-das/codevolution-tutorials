@@ -11,6 +11,7 @@ import HookCounter1 from "./components/section_01/02_HookCounter1";
 import ClassCounter2 from "./components/section_01/03_ClassCounter2";
 import HookCounter2 from "./components/section_01/03_HookCounter2";
 import HookCounter3 from "./components/section_01/04_HookCounter3";
+import HookCounter4 from "./components/section_01/05_HookCounter4";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
                 }
               />
               <Route path="/useState-with-objects" element={<HookCounter3 />} />
+              <Route path="/useState-with-arrays" element={<HookCounter4 />} />
             </>
           </Routes>
         </div>
