@@ -14,14 +14,22 @@ const NOTES = `
     
 - Import useState from react. (named import so we use {})  
   (to use hooks, since they are functions, we directly call them)
+
 - Call useState by passing it a default value.
+
 - Assign the return pair of values to the variables using array de-structuring.
+
 - Use them in the JSX.  
   (the variable count will always contain the current state value and setCount() method will accept an argument and set the count value to that argument)
+
 - The first time the component renders, a state variable is created and initialized with a default value of 0.
+
 - The default value is never used on re-renders.
+
 - When we click on the button, the setCount method is called which will add 1 to the current count value.
+
 - On first click, the count is incremented to 1 from 0 and setCount() method will re-render the component.
+
 - After the re-render, count will contain value 1 which gets displayed as part of the inner text of the browser.
 
 #### Rules of Hooks

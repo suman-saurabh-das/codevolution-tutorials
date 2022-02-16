@@ -13,6 +13,13 @@ function Router() {
           <li><Link to={"/useState-with-arrays"}>useState hook (with arrays)</Link></li>
         </ul>
       </details>
+
+      <details open>
+        <summary className="font-bold text-lg">Section 02</summary>
+        <ul>
+          <li><Link to={"/useEffect"}>Introduction to useEffect hook</Link></li>
+        </ul>
+      </details>
     </div>
   );
 }
