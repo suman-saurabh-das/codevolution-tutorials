@@ -1,7 +1,7 @@
 import ReactMarkdown from "react-markdown";
 
 const NOTES = `
-## useEffect Hook
+## useEffect hook
 
 - The Effect hook lets us perform side effects in functional components.
 

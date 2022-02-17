@@ -15,6 +15,8 @@ import HookCounter4 from "./components/section_01/05_HookCounter4";
 
 // components (section_02)
 import UseEffectIntroduction from "./components/section_02/06_UseEffectIntroduction";
+import ClassCounter3 from "./components/section_02/07_ClassCounter3";
+import HookCounter5 from "./components/section_02/07_HookCounter5";
 
 function App() {
   return (
@@ -55,7 +57,17 @@ function App() {
 
             {/* Section 02 */}
             <>
-              <Route path="/useEffect" element={<UseEffectIntroduction />} />
+              <Route
+                path="/useEffect"
+                element={
+                  <div>
+                    <UseEffectIntroduction />
+                    <HookCounter5 />
+                    <hr />
+                    <ClassCounter3 />
+                  </div>
+                }
+              />
             </>
           </Routes>
         </div>
