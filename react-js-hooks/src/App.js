@@ -17,6 +17,8 @@ import HookCounter4 from "./components/section_01/05_HookCounter4";
 import UseEffectIntroduction from "./components/section_02/06_UseEffectIntroduction";
 import ClassCounter3 from "./components/section_02/07_ClassCounter3";
 import HookCounter5 from "./components/section_02/07_HookCounter5";
+import ClassCounter4 from "./components/section_02/08_ClassCounter4";
+import HookCounter6 from "./components/section_02/08_HookCounter6";
 
 function App() {
   return (
@@ -65,6 +67,16 @@ function App() {
                     <HookCounter5 />
                     <hr />
                     <ClassCounter3 />
+                  </div>
+                }
+              />
+              <Route
+                path="/useEffect-run-conditionally"
+                element={
+                  <div>
+                    <HookCounter6 />
+                    <hr />
+                    <ClassCounter4 />
                   </div>
                 }
               />

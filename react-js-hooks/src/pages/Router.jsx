@@ -18,6 +18,7 @@ function Router() {
         <summary className="font-bold text-lg">Section 02</summary>
         <ul>
           <li><Link to={"/useEffect"}>Introduction to useEffect hook</Link></li>
+          <li><Link to={"/useEffect-run-conditionally"}>useEffect hook (run effects conditionally)</Link></li>
         </ul>
       </details>
     </div>
