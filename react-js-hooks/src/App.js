@@ -21,6 +21,7 @@ import ClassCounter4 from "./components/section_02/08_ClassCounter4";
 import HookCounter6 from "./components/section_02/08_HookCounter6";
 import ClassMouse from "./components/section_02/09_ClassMouse";
 import HookMouse from "./components/section_02/09_HookMouse";
+import MouseContainer from "./components/section_02/10_MouseContainer";
 
 function App() {
   return (
@@ -92,6 +93,7 @@ function App() {
                   </div>
                 }
               />
+              <Route path="/useEffect-with-cleanup" element={<MouseContainer />} />
             </>
           </Routes>
         </div>
