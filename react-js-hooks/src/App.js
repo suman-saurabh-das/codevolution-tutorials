@@ -22,6 +22,8 @@ import HookCounter6 from "./components/section_02/08_HookCounter6";
 import ClassMouse from "./components/section_02/09_ClassMouse";
 import HookMouse from "./components/section_02/09_HookMouse";
 import MouseContainer from "./components/section_02/10_MouseContainer";
+import IntervalClassCounter from "./components/section_02/11_IntervalClassCounter";
+import IntervalHookCounter from "./components/section_02/11_IntervalHookCounter";
 
 function App() {
   return (
@@ -94,6 +96,16 @@ function App() {
                 }
               />
               <Route path="/useEffect-with-cleanup" element={<MouseContainer />} />
+              <Route
+                path="/useEffect-with-incorrect-dependencies"
+                element={
+                  <div>
+                    <IntervalHookCounter />
+                    <hr />
+                    <IntervalClassCounter />
+                  </div>
+                }
+              />
             </>
           </Routes>
         </div>
