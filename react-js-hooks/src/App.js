@@ -24,6 +24,7 @@ import HookMouse from "./components/section_02/09_HookMouse";
 import MouseContainer from "./components/section_02/10_MouseContainer";
 import IntervalClassCounter from "./components/section_02/11_IntervalClassCounter";
 import IntervalHookCounter from "./components/section_02/11_IntervalHookCounter";
+import DataFetching from "./components/section_02/12_DataFetching";
 
 function App() {
   return (
@@ -106,6 +107,7 @@ function App() {
                   </div>
                 }
               />
+              <Route path="/useEffect-fetching-data" element={<DataFetching />} />
             </>
           </Routes>
         </div>

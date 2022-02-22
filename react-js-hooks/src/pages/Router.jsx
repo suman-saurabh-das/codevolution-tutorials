@@ -22,6 +22,7 @@ function Router() {
           <li><Link to={"/useEffect-run-once"}>useEffect hook (run effects once)</Link></li>
           <li><Link to={"/useEffect-with-cleanup"}>useEffect hook (with cleanup)</Link></li>
           <li><Link to={"/useEffect-with-incorrect-dependencies"}>useEffect hook (with incorrect dependencies)</Link></li>
+          <li><Link to={"/useEffect-fetching-data"}>useEffect hook (fetching data)</Link></li>
         </ul>
       </details>
     </div>
