@@ -37,6 +37,16 @@ const NOTES = `
 - Now we must add the id property to the dependency array inside the useEffect() otherwise react will not call the effect when id is entered by the user.
 
 - After specifying the id in the dependency array of useEffect(), we will be able to fetch the desired data.
+
+## Tutorial 3: Data fetching on button click
+
+- Previously, whenever we were typing in the id, data was getting fetched at every change in input value. Now we would like to fetch data only when a button is clicked.
+
+- Typically we would achieve this using a button and an onClick handler and fetch data in this handler. But the same can be achieved by useEffect() hook.
+
+- Create a state variable, whose value will change only based on the button clicked.
+- Now set this state variable only when the user clicks this button and use the same variable to fetch the post from the useEffect.
+- Remove the id from dependency array and add the new state variable.
 `;
 
 /* Tutorial 1: Data fetching on render */
@@ -69,25 +79,62 @@ const NOTES = `
 // export default DataFetching;
 
 /* Tutorial 2: Data fetching on input change */
+// function DataFetching() {
+//   const [post, setPost] = useState({});
+//   const [id, setId] = useState(1);
+
+//   useEffect(() => {
+//     Axios.get(`https://jsonplaceholder.typicode.com/posts/${id}`)
+//       .then((res) => {
+//         console.log(res.data);
+//         setPost(res.data);
+//       })
+//       .catch((err) => console.log(err));
+//   }, [id]);
+
+//   return (
+//     <>
+//       <ReactMarkdown>{NOTES}</ReactMarkdown>
+//       <hr />
+//       <h3>Post with id : {id}</h3>
+//       <input type="text" value={id} onChange={(e) => setId(e.target.value)} />
+//       <div>
+//         <h4>{post.title}</h4>
+//         <p>{post.body}</p>
+//       </div>
+//     </>
+//   );
+// }
+
+// export default DataFetching;
+
+/* Tutorial 3: Data fetching on button click */
 function DataFetching() {
   const [post, setPost] = useState({});
   const [id, setId] = useState(1);
+  const [idFromBtnClick, setIdFromBtnClick] = useState(1);
 
   useEffect(() => {
-    Axios.get(`https://jsonplaceholder.typicode.com/posts/${id}`)
+    Axios.get(`https://jsonplaceholder.typicode.com/posts/${idFromBtnClick}`)
       .then((res) => {
         console.log(res.data);
         setPost(res.data);
       })
       .catch((err) => console.log(err));
-  }, [id]);
+  }, [idFromBtnClick]);
+
+  const handleBtnClick = () => {
+    setIdFromBtnClick(id);
+  };
 
   return (
     <>
       <ReactMarkdown>{NOTES}</ReactMarkdown>
       <hr />
-      <h3>Post with id : {id}</h3>
+      <h3>Post with id : {idFromBtnClick}</h3>
       <input type="text" value={id} onChange={(e) => setId(e.target.value)} />
+      &emsp;
+      <button onClick={handleBtnClick}>Fetch Post</button>
       <div>
         <h4>{post.title}</h4>
         <p>{post.body}</p>
