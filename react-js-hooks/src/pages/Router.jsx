@@ -25,6 +25,13 @@ function Router() {
           <li><Link to={"/useEffect-fetching-data"}>useEffect hook (fetching data)</Link></li>
         </ul>
       </details>
+
+      <details open>
+        <summary className="font-bold text-lg">Section 03</summary>
+        <ul>
+          <li><Link to={"/useContext"}>Introduction to useContext hook</Link></li>
+        </ul>
+      </details>
     </div>
   );
 }

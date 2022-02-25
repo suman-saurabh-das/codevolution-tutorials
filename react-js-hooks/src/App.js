@@ -26,6 +26,9 @@ import IntervalClassCounter from "./components/section_02/11_IntervalClassCounte
 import IntervalHookCounter from "./components/section_02/11_IntervalHookCounter";
 import DataFetching from "./components/section_02/12_DataFetching";
 
+// components (section_03)
+import UseContextIntroduction from "./components/section_03/13_UseContextIntroduction";
+
 function App() {
   return (
     <div className="App">
@@ -108,6 +111,11 @@ function App() {
                 }
               />
               <Route path="/useEffect-fetching-data" element={<DataFetching />} />
+            </>
+
+            {/* Section 03 */}
+            <>
+              <Route path="/useContext" element={<UseContextIntroduction />} />
             </>
           </Routes>
         </div>
