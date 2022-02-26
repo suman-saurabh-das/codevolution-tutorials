@@ -30,6 +30,7 @@ function Router() {
         <summary className="font-bold text-lg">Section 03</summary>
         <ul>
           <li><Link to={"/useContext"}>Introduction to useContext hook</Link></li>
+          <li><Link to={"/useContext-consuming-data"}>Consuming data using useContext</Link></li>
         </ul>
       </details>
     </div>

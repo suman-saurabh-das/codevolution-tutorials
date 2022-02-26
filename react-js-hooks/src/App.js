@@ -28,6 +28,7 @@ import DataFetching from "./components/section_02/12_DataFetching";
 
 // components (section_03)
 import UseContextIntroduction from "./components/section_03/13_UseContextIntroduction";
+import DataPassingUsingContext from "./components/section_03/14_DataPassingUsingContext";
 
 function App() {
   return (
@@ -116,6 +117,7 @@ function App() {
             {/* Section 03 */}
             <>
               <Route path="/useContext" element={<UseContextIntroduction />} />
+              <Route path="/useContext-consuming-data" element={<DataPassingUsingContext />} />
             </>
           </Routes>
         </div>
