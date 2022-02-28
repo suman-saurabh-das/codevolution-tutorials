@@ -30,6 +30,7 @@ import DataFetching from "./components/section_02/12_DataFetching";
 import UseContextIntroduction from "./components/section_03/13_UseContextIntroduction";
 import DataPassingUsingContext from "./components/section_03/14_DataPassingUsingContext";
 import UseReducerIntroduction from "./components/section_03/15_UseReducerIntroduction";
+import Counter1 from "./components/section_03/16_Counter1";
 
 function App() {
   return (
@@ -120,6 +121,7 @@ function App() {
               <Route path="/useContext" element={<UseContextIntroduction />} />
               <Route path="/useContext-consuming-data" element={<DataPassingUsingContext />} />
               <Route path="/useReducer" element={<UseReducerIntroduction />} />
+              <Route path="/useReducer-simple-state" element={<Counter1 />} />
             </>
           </Routes>
         </div>
