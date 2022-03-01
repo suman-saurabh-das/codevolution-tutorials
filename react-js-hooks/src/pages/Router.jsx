@@ -33,6 +33,7 @@ function Router() {
           <li><Link to={"/useContext-consuming-data"}>Consuming data using useContext</Link></li>
           <li><Link to={"/useReducer"}>Introduction to useReducer hook</Link></li>
           <li><Link to={"/useReducer-simple-state"}>useReducer with simple state & action</Link></li>
+          <li><Link to={"/useReducer-complex-state"}>useReducer with complex state & action</Link></li>
         </ul>
       </details>
     </div>
