@@ -33,6 +33,7 @@ import UseReducerIntroduction from "./components/section_03/15_UseReducerIntrodu
 import Counter1 from "./components/section_03/16_Counter1";
 import Counter2 from "./components/section_03/17_Counter2";
 import Counter3 from "./components/section_03/18_Counter3";
+import CounterContainer from "./components/section_03/19_CounterContainer";
 
 function App() {
   return (
@@ -126,6 +127,7 @@ function App() {
               <Route path="/useReducer-simple-state" element={<Counter1 />} />
               <Route path="/useReducer-complex-state" element={<Counter2 />} />
               <Route path="/useReducer-multiple-reducers" element={<Counter3 />} />
+              <Route path="/useReducer-with-useContext" element={<CounterContainer />} />
             </>
           </Routes>
         </div>
