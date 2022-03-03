@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import ReactMarkdown from "react-markdown";
 import "./App.css";
 
 // pages
@@ -34,6 +35,9 @@ import Counter1 from "./components/section_03/16_Counter1";
 import Counter2 from "./components/section_03/17_Counter2";
 import Counter3 from "./components/section_03/18_Counter3";
 import CounterContainer from "./components/section_03/19_CounterContainer";
+import DataFetching1 from "./components/section_03/20_DataFetching1";
+import DataFetching2 from "./components/section_03/21_DataFetching2";
+import { DATA_FETCHING_USE_REDUCER_NOTES } from "./components/section_03/21_DataFetching2";
 
 function App() {
   return (
@@ -128,6 +132,18 @@ function App() {
               <Route path="/useReducer-complex-state" element={<Counter2 />} />
               <Route path="/useReducer-multiple-reducers" element={<Counter3 />} />
               <Route path="/useReducer-with-useContext" element={<CounterContainer />} />
+              <Route
+                path="/useReducer-data-fetching"
+                element={
+                  <div>
+                    <ReactMarkdown>{DATA_FETCHING_USE_REDUCER_NOTES}</ReactMarkdown>
+                    <hr />
+                    <DataFetching1 />
+                    <hr />
+                    <DataFetching2 />
+                  </div>
+                }
+              />
             </>
           </Routes>
         </div>
