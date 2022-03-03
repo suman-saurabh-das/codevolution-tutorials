@@ -38,6 +38,7 @@ import CounterContainer from "./components/section_03/19_CounterContainer";
 import DataFetching1 from "./components/section_03/20_DataFetching1";
 import DataFetching2 from "./components/section_03/21_DataFetching2";
 import { DATA_FETCHING_USE_REDUCER_NOTES } from "./components/section_03/21_DataFetching2";
+import UseStateVsUseReducer from "./components/section_03/22_UseStateVsUseReducer";
 
 function App() {
   return (
@@ -144,6 +145,7 @@ function App() {
                   </div>
                 }
               />
+              <Route path="/useState-vs-useReducer" element={<UseStateVsUseReducer />} />
             </>
           </Routes>
         </div>

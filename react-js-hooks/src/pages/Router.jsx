@@ -37,6 +37,7 @@ function Router() {
           <li><Link to={"/useReducer-multiple-reducers"}>useReducer with multiple reducers</Link></li>
           <li><Link to={"/useReducer-with-useContext"}>useReducer with useContext hook</Link></li>
           <li><Link to={"/useReducer-data-fetching"}>fetching data with useReducer hook</Link></li>
+          <li><Link to={"/useState-vs-useReducer"}>useState vs useReducer</Link></li>
         </ul>
       </details>
     </div>
