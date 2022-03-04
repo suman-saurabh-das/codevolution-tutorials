@@ -40,6 +40,9 @@ import DataFetching2 from "./components/section_03/21_DataFetching2";
 import { DATA_FETCHING_USE_REDUCER_NOTES } from "./components/section_03/21_DataFetching2";
 import UseStateVsUseReducer from "./components/section_03/22_UseStateVsUseReducer";
 
+// components (section_04)
+import ParentContainer from "./components/section_04/23_ParentContainer";
+
 function App() {
   return (
     <div className="App">
@@ -146,6 +149,11 @@ function App() {
                 }
               />
               <Route path="/useState-vs-useReducer" element={<UseStateVsUseReducer />} />
+            </>
+
+            {/* Section 04 */}
+            <>
+              <Route path="/useCallback" element={<ParentContainer />} />
             </>
           </Routes>
         </div>

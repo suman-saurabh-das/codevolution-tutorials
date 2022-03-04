@@ -40,6 +40,13 @@ function Router() {
           <li><Link to={"/useState-vs-useReducer"}>useState vs useReducer</Link></li>
         </ul>
       </details>
+
+      <details open>
+        <summary className="font-bold text-lg">Section 04</summary>
+        <ul>
+          <li><Link to={"/useCallback"}>useCallback hook</Link></li>
+        </ul>
+      </details>
     </div>
   );
 }
