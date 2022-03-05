@@ -45,6 +45,7 @@ function Router() {
         <summary className="font-bold text-lg">Section 04</summary>
         <ul>
           <li><Link to={"/useCallback"}>useCallback hook</Link></li>
+          <li><Link to={"/useMemo"}>useMemo hook</Link></li>
         </ul>
       </details>
     </div>

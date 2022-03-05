@@ -42,6 +42,7 @@ import UseStateVsUseReducer from "./components/section_03/22_UseStateVsUseReduce
 
 // components (section_04)
 import ParentContainer from "./components/section_04/23_ParentContainer";
+import Counter from "./components/section_04/24_Counter";
 
 function App() {
   return (
@@ -154,6 +155,7 @@ function App() {
             {/* Section 04 */}
             <>
               <Route path="/useCallback" element={<ParentContainer />} />
+              <Route path="/useMemo" element={<Counter />} />
             </>
           </Routes>
         </div>
