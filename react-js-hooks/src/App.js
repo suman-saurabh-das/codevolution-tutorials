@@ -43,6 +43,7 @@ import UseStateVsUseReducer from "./components/section_03/22_UseStateVsUseReduce
 // components (section_04)
 import ParentContainer from "./components/section_04/23_ParentContainer";
 import Counter from "./components/section_04/24_Counter";
+import FocusInput from "./components/section_04/25_FocusInput";
 
 function App() {
   return (
@@ -156,6 +157,7 @@ function App() {
             <>
               <Route path="/useCallback" element={<ParentContainer />} />
               <Route path="/useMemo" element={<Counter />} />
+              <Route path="/useRef-access-dom-nodes" element={<FocusInput />} />
             </>
           </Routes>
         </div>
