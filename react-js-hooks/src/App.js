@@ -44,6 +44,8 @@ import UseStateVsUseReducer from "./components/section_03/22_UseStateVsUseReduce
 import ParentContainer from "./components/section_04/23_ParentContainer";
 import Counter from "./components/section_04/24_Counter";
 import FocusInput from "./components/section_04/25_FocusInput";
+import ClassTimer from "./components/section_04/26_ClassTimer";
+import HookTimer from "./components/section_04/26_HookTimer";
 
 function App() {
   return (
@@ -158,6 +160,16 @@ function App() {
               <Route path="/useCallback" element={<ParentContainer />} />
               <Route path="/useMemo" element={<Counter />} />
               <Route path="/useRef-access-dom-nodes" element={<FocusInput />} />
+              <Route 
+                path="/useRef-store-mutable-value" 
+                element={
+                  <div>
+                    <HookTimer />
+                    <hr />
+                    <ClassTimer />
+                  </div>
+                }
+              />
             </>
           </Routes>
         </div>

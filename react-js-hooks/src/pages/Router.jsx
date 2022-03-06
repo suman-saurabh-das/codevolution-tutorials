@@ -47,6 +47,7 @@ function Router() {
           <li><Link to={"/useCallback"}>useCallback hook</Link></li>
           <li><Link to={"/useMemo"}>useMemo hook</Link></li>
           <li><Link to={"/useRef-access-dom-nodes"}>useRef hook (access DOM nodes)</Link></li>
+          <li><Link to={"/useRef-store-mutable-value"}>useRef hook (store mutable value)</Link></li>
         </ul>
       </details>
     </div>

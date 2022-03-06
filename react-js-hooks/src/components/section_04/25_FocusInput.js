@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import ReactMarkdown from "react-markdown";
 
 const NOTES = `
-## useRef hook
+## useRef hook (accessing DOM nodes)
 
 - useRef hook allows us to access DOM nodes directly within components.
 
