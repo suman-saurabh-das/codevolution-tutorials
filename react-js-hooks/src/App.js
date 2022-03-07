@@ -46,6 +46,7 @@ import Counter from "./components/section_04/24_Counter";
 import FocusInput from "./components/section_04/25_FocusInput";
 import ClassTimer from "./components/section_04/26_ClassTimer";
 import HookTimer from "./components/section_04/26_HookTimer";
+import CustomHookIntroduction from "./components/section_04/27_CustomHookIntroduction";
 
 function App() {
   return (
@@ -170,6 +171,7 @@ function App() {
                   </div>
                 }
               />
+              <Route path="/custom-hook" element={<CustomHookIntroduction />} />
             </>
           </Routes>
         </div>

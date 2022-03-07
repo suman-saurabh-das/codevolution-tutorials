@@ -36,7 +36,7 @@ function Router() {
           <li><Link to={"/useReducer-complex-state"}>useReducer with complex state & action</Link></li>
           <li><Link to={"/useReducer-multiple-reducers"}>useReducer with multiple reducers</Link></li>
           <li><Link to={"/useReducer-with-useContext"}>useReducer with useContext hook</Link></li>
-          <li><Link to={"/useReducer-data-fetching"}>fetching data with useReducer hook</Link></li>
+          <li><Link to={"/useReducer-data-fetching"}>Fetching data with useReducer hook</Link></li>
           <li><Link to={"/useState-vs-useReducer"}>useState vs useReducer</Link></li>
         </ul>
       </details>
@@ -48,6 +48,7 @@ function Router() {
           <li><Link to={"/useMemo"}>useMemo hook</Link></li>
           <li><Link to={"/useRef-access-dom-nodes"}>useRef hook (access DOM nodes)</Link></li>
           <li><Link to={"/useRef-store-mutable-value"}>useRef hook (store mutable value)</Link></li>
+          <li><Link to={"/custom-hook"}>Custom hooks</Link></li>
         </ul>
       </details>
     </div>
