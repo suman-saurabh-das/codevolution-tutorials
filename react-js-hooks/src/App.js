@@ -47,6 +47,8 @@ import FocusInput from "./components/section_04/25_FocusInput";
 import ClassTimer from "./components/section_04/26_ClassTimer";
 import HookTimer from "./components/section_04/26_HookTimer";
 import CustomHookIntroduction from "./components/section_04/27_CustomHookIntroduction";
+import DocTitle1 from "./components/section_04/28_DocTitle1";
+import DocTitle2 from "./components/section_04/28_DocTitle2";
 
 function App() {
   return (
@@ -172,6 +174,16 @@ function App() {
                 }
               />
               <Route path="/custom-hook" element={<CustomHookIntroduction />} />
+              <Route 
+                path="/custom-hook-useDocumentTitle" 
+                element={
+                  <div>
+                    <DocTitle1 />
+                    <hr />
+                    <DocTitle2 />
+                  </div>
+                }
+              />
             </>
           </Routes>
         </div>
