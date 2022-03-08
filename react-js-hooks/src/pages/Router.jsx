@@ -50,6 +50,7 @@ function Router() {
           <li><Link to={"/useRef-store-mutable-value"}>useRef hook (store mutable value)</Link></li>
           <li><Link to={"/custom-hook"}>Custom hooks</Link></li>
           <li><Link to={"/custom-hook-useDocumentTitle"}>Custom hook (useDocumentTitle)</Link></li>
+          <li><Link to={"/custom-hook-useCounter"}>Custom hook (useCounter)</Link></li>
         </ul>
       </details>
     </div>

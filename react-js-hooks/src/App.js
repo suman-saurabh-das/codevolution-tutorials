@@ -49,6 +49,8 @@ import HookTimer from "./components/section_04/26_HookTimer";
 import CustomHookIntroduction from "./components/section_04/27_CustomHookIntroduction";
 import DocTitle1 from "./components/section_04/28_DocTitle1";
 import DocTitle2 from "./components/section_04/28_DocTitle2";
+import Counter4 from "./components/section_04/29_Counter4";
+import Counter5 from "./components/section_04/29_Counter5";
 
 function App() {
   return (
@@ -181,6 +183,16 @@ function App() {
                     <DocTitle1 />
                     <hr />
                     <DocTitle2 />
+                  </div>
+                }
+              />
+              <Route 
+                path="/custom-hook-useCounter" 
+                element={
+                  <div>
+                    <Counter4 />
+                    <hr />
+                    <Counter5 />
                   </div>
                 }
               />
