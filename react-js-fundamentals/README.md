@@ -50,7 +50,7 @@
   - run the app `npm run start`
 
 ## Status
-- React JS Fundamentals is completed in 5th February 2022.
+- React JS Fundamentals is completed on 5th February 2022.
 
 ## Credits
 List of contributors:

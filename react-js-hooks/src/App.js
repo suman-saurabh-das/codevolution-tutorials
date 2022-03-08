@@ -51,6 +51,7 @@ import DocTitle1 from "./components/section_04/28_DocTitle1";
 import DocTitle2 from "./components/section_04/28_DocTitle2";
 import Counter4 from "./components/section_04/29_Counter4";
 import Counter5 from "./components/section_04/29_Counter5";
+import UserForm from "./components/section_04/30_UserForm";
 
 function App() {
   return (
@@ -196,6 +197,7 @@ function App() {
                   </div>
                 }
               />
+              <Route path="/custom-hook-useForm" element={<UserForm />} />
             </>
           </Routes>
         </div>
