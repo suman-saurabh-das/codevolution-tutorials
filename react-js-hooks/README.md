@@ -1,4 +1,4 @@
-# React.JS Fundamentals
+# React.JS Hooks
 
 ## Table of Content:
 - [Course Content](#course-content)
