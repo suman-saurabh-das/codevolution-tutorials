@@ -6,7 +6,7 @@ function Router() {
       <details open>
         <summary className="font-bold text-lg">Section 01</summary>
         <ul>
-          <li><Link to={"/"}></Link></li>
+          <li><Link to={"/introduction"}>Introduction</Link></li>
         </ul>
       </details>
     </div>
