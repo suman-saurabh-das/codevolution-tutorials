@@ -6,6 +6,7 @@ import Router from "./pages/Router";
 
 // components (section_01)
 import Introduction from "./components/section_01/01_Introduction";
+import UseState from "./components/section_01/02_UseState";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             {/* Section 01 */}
             <>
               <Route path="/introduction" element={<Introduction />} />
+              <Route path="/useState-rendering" element={<UseState />} />
             </>
           </Routes>
         </div>
