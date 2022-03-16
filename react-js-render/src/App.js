@@ -7,6 +7,7 @@ import Router from "./pages/Router";
 // components (section_01)
 import Introduction from "./components/section_01/01_Introduction";
 import UseState from "./components/section_01/02_UseState";
+import UseReducer from "./components/section_01/03_UseReducer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <>
               <Route path="/introduction" element={<Introduction />} />
               <Route path="/useState-rendering" element={<UseState />} />
+              <Route path="/useReducer-rendering" element={<UseReducer />} />
             </>
           </Routes>
         </div>

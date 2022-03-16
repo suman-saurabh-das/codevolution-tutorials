@@ -25,11 +25,9 @@ function UseState() {
       <ReactMarkdown>{NOTES}</ReactMarkdown>
       <hr />
       <h3>Count : {count}</h3>
-      <button onClick={() => setCount((prevCount) => prevCount + 1)}>
-        Count++
-      </button>&emsp;
+      <button onClick={() => setCount((prevCount) => prevCount + 1)}>Count++</button>&emsp;
       <button onClick={() => setCount(0)}>Set count to 0</button>&emsp;
-      <button onClick={() => setCount(5)}>Set count to 5</button>&emsp;
+      <button onClick={() => setCount(5)}>Set count to 5</button>
     </div>
   );
 }

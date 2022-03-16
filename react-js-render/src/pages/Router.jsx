@@ -8,6 +8,7 @@ function Router() {
         <ul>
           <li><Link to={"/introduction"}>Introduction</Link></li>
           <li><Link to={"/useState-rendering"}>useState rendering behavior</Link></li>
+          <li><Link to={"/useReducer-rendering"}>useReducer rendering behavior</Link></li>
         </ul>
       </details>
     </div>
