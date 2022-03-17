@@ -9,6 +9,7 @@ function Router() {
           <li><Link to={"/introduction"}>Introduction</Link></li>
           <li><Link to={"/useState-rendering"}>useState rendering behavior</Link></li>
           <li><Link to={"/useReducer-rendering"}>useReducer rendering behavior</Link></li>
+          <li><Link to={"/useState-immutability"}>useState immutability</Link></li>
         </ul>
       </details>
     </div>
