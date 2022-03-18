@@ -10,6 +10,7 @@ function Router() {
           <li><Link to={"/useState-rendering"}>useState rendering behavior</Link></li>
           <li><Link to={"/useReducer-rendering"}>useReducer rendering behavior</Link></li>
           <li><Link to={"/useState-immutability"}>useState immutability</Link></li>
+          <li><Link to={"/parent-child-rendering"}>Parent and child rendering</Link></li>
         </ul>
       </details>
     </div>

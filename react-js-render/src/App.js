@@ -10,6 +10,7 @@ import UseState from "./components/section_01/02_UseState";
 import UseReducer from "./components/section_01/03_UseReducer";
 import ArrayUseState from "./components/section_01/04_ArrayUseState";
 import ObjectUseState from "./components/section_01/04_ObjectUseState";
+import Parent1 from "./components/section_01/05_Parent1";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
                   </div>
                 }
               />
+              <Route path="/parent-child-rendering" element={<Parent1 />} />
             </>
           </Routes>
         </div>
