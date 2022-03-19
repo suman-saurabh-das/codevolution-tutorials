@@ -11,6 +11,8 @@ function Router() {
           <li><Link to={"/useReducer-rendering"}>useReducer rendering behavior</Link></li>
           <li><Link to={"/useState-immutability"}>useState immutability</Link></li>
           <li><Link to={"/parent-child-rendering"}>Parent and child rendering</Link></li>
+          <li><Link to={"/optimization-same-element-reference"}>Optimization using same element reference</Link></li>
+          <li><Link to={"/optimization-react-memo"}>Optimization using react memo</Link></li>
         </ul>
       </details>
     </div>

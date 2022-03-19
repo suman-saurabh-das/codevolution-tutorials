@@ -11,6 +11,10 @@ import UseReducer from "./components/section_01/03_UseReducer";
 import ArrayUseState from "./components/section_01/04_ArrayUseState";
 import ObjectUseState from "./components/section_01/04_ObjectUseState";
 import Parent1 from "./components/section_01/05_Parent1";
+import Parent2 from "./components/section_01/06_Parent2";
+import Child2 from "./components/section_01/06_Child2";
+import GrandParent2 from "./components/section_01/06_GrandParent2";
+import Parent3 from "./components/section_01/07_Parent3";
 
 function App() {
   return (
@@ -38,6 +42,24 @@ function App() {
                 }
               />
               <Route path="/parent-child-rendering" element={<Parent1 />} />
+              <Route 
+                path="/optimization-same-element-reference"
+                element={
+                  <div>
+                    {/* When rendering Child2 inside Parent2, unnecessary re-render of Child2 occurs */}
+                    {/* <Parent2 /> */}
+
+                    {/* When we pass Child2 as children props to Parent2, react provides optimization as props are immutable and couldn't have changed so Child2 doesn't re-render */}
+                    {/* <Parent2>
+                      <Child2 />
+                    </Parent2> */}
+
+                    {/* Default rendering behavior, i.e. If parent re-renders, all child components will also re-render */}
+                    <GrandParent2 />
+                  </div>
+                }
+              />
+              <Route path="/optimization-react-memo" element={<Parent3 />} />
             </>
           </Routes>
         </div>
