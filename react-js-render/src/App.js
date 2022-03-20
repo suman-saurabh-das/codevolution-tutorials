@@ -11,10 +11,13 @@ import UseReducer from "./components/section_01/03_UseReducer";
 import ArrayUseState from "./components/section_01/04_ArrayUseState";
 import ObjectUseState from "./components/section_01/04_ObjectUseState";
 import Parent1 from "./components/section_01/05_Parent1";
-import Parent2 from "./components/section_01/06_Parent2";
-import Child2 from "./components/section_01/06_Child2";
+// import Parent2 from "./components/section_01/06_Parent2";
+// import Child2 from "./components/section_01/06_Child2";
 import GrandParent2 from "./components/section_01/06_GrandParent2";
 import Parent3 from "./components/section_01/07_Parent3";
+
+// components (section_02)
+import OptimizationQuestions from "./components/section_02/08_Questions_on_optimization";
 
 function App() {
   return (
@@ -60,6 +63,11 @@ function App() {
                 }
               />
               <Route path="/optimization-react-memo" element={<Parent3 />} />
+            </>
+
+            {/* Section 02 */}
+            <>
+              <Route path="/optimization-questions" element={<OptimizationQuestions />} />
             </>
           </Routes>
         </div>
