@@ -18,6 +18,7 @@ import Parent3 from "./components/section_01/07_Parent3";
 
 // components (section_02)
 import OptimizationQuestions from "./components/section_02/08_Questions_on_optimization";
+import Parent4 from "./components/section_02/09_Parent4";
 
 function App() {
   return (
@@ -68,6 +69,7 @@ function App() {
             {/* Section 02 */}
             <>
               <Route path="/optimization-questions" element={<OptimizationQuestions />} />
+              <Route path="/incorrect-optimization-children-props-and-memo" element={<Parent4 />} />
             </>
           </Routes>
         </div>

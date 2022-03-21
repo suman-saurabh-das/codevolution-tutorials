@@ -20,6 +20,7 @@ function Router() {
         <summary className="font-bold text-lg">Section 02</summary>
         <ul>
           <li><Link to={"/optimization-questions"}>Questions on optimization</Link></li>
+          <li><Link to={"/incorrect-optimization-children-props-and-memo"}>Incorrect optimization with children props & memo</Link></li>
         </ul>
       </details>
     </div>
