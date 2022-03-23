@@ -20,6 +20,7 @@ import Parent3 from "./components/section_01/07_Parent3";
 import OptimizationQuestions from "./components/section_02/08_Questions_on_optimization";
 import Parent4 from "./components/section_02/09_Parent4";
 import Parent5 from "./components/section_02/10_Parent5";
+import Parent6 from "./components/section_02/11_Parent6";
 
 function App() {
   return (
@@ -77,6 +78,10 @@ function App() {
               <Route
                 path="/incorrect-optimization-with-impure-component-and-memo"
                 element={<Parent5 />}
+              />
+              <Route
+                path="/incorrect-optimization-with-prop-reference-and-memo"
+                element={<Parent6 />}
               />
             </>
           </Routes>
