@@ -23,6 +23,7 @@ function Router() {
           <li><Link to={"/incorrect-optimization-children-props-and-memo"}>Incorrect optimization with children props & memo</Link></li>
           <li><Link to={"/incorrect-optimization-with-impure-component-and-memo"}>Incorrect optimization with impure component & memo</Link></li>
           <li><Link to={"/incorrect-optimization-with-prop-reference-and-memo"}>Incorrect optimization with prop reference & memo</Link></li>
+          <li><Link to={"/optimization-with-useMemo-and-useCallback"}>Optimization using useMemo & useCallback</Link></li>
         </ul>
       </details>
     </div>
