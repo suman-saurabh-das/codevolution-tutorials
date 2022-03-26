@@ -23,6 +23,7 @@ import Parent5 from "./components/section_02/10_Parent5";
 import Parent6 from "./components/section_02/11_Parent6";
 import Parent7 from "./components/section_02/12_Parent7";
 import ParentContext1 from "./components/section_02/13_ParentContext1";
+import ParentContext2 from "./components/section_02/14_ParentContext2";
 
 function App() {
   return (
@@ -90,6 +91,7 @@ function App() {
                 element={<Parent7 />}
               />
               <Route path="/useContext-rendering" element={<ParentContext1 />} />
+              <Route path="/optimization-with-useMemo" element={<ParentContext2 />} />
             </>
           </Routes>
         </div>

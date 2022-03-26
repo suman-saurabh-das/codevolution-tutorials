@@ -25,6 +25,7 @@ function Router() {
           <li><Link to={"/incorrect-optimization-with-prop-reference-and-memo"}>Incorrect optimization with prop reference & memo</Link></li>
           <li><Link to={"/optimization-with-useMemo-and-useCallback"}>Optimization using useMemo & useCallback</Link></li>
           <li><Link to={"/useContext-rendering"}>useContext rendering behavior</Link></li>
+          <li><Link to={"/optimization-with-useMemo"}>Optimization using memo</Link></li>
         </ul>
       </details>
     </div>
