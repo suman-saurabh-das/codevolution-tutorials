@@ -58,7 +58,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <h1>
-          <Link to={"/"}>React.JS Hooks</Link>
+          <Link to={"/"}>React.js Hooks</Link>
         </h1>
         <div className="app-container">
           <Routes>

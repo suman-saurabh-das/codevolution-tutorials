@@ -31,7 +31,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <h1>
-          <Link to={"/"}>React.JS Render</Link>
+          <Link to={"/"}>React.js Render</Link>
         </h1>
         <div className="app-container">
           <Routes>

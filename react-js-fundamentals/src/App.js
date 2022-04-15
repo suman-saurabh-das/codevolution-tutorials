@@ -72,7 +72,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <h1>
-          <Link to={"/"}>React.JS Fundamentals</Link>
+          <Link to={"/"}>React.js Fundamentals</Link>
         </h1>
         <div className="app-container">
           <Routes>
