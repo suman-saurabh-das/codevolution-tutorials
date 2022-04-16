@@ -3,6 +3,8 @@ import "./App.css";
 
 // pages
 import Router from "./pages/Router";
+import ReactIcons from "./pages/react-icons";
+import Error from "./pages/Error";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <div className="app-container">
           <Routes>
             <Route path="/" element={<Router />} />
+            <Route path="/react-icons" element={<ReactIcons />} />
+            <Route path="*" element={<Error />} />
           </Routes>
         </div>
       </BrowserRouter>

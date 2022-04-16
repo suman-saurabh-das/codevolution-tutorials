@@ -5,6 +5,7 @@ function Router() {
     <div>
       <p>React packages that will come handy at work/side projects.</p>
       <ul>
+        <li><Link to={"/react-icons"}>react-icons</Link></li>
       </ul>
     </div>
   );
