@@ -8,7 +8,7 @@ import { IconContext } from "react-icons/lib";
 const notes = `
 ## React Icons
 
-- **Purpose:** Single unified library that allows us to easily use popular icons in React via ES6 imports. (only loads what you use)
+- **Purpose:** Single unified library that allows us to easily use popular icons in React via ES6 imports. (only loads icons that we use)
 - **Install:** npm install react-icons
 - [react-icons-documentation](https://react-icons.github.io/react-icons/)
 

@@ -4,6 +4,7 @@ import "./App.css";
 // pages
 import Router from "./pages/Router";
 import ReactIcons from "./pages/react-icons";
+import ReactToastify from "./pages/react-toastify";
 import Error from "./pages/Error";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Router />} />
             <Route path="/react-icons" element={<ReactIcons />} />
+            <Route path="/react-toastify" element={<ReactToastify />} />
             <Route path="*" element={<Error />} />
           </Routes>
         </div>
