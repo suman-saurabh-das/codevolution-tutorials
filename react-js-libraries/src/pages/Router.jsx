@@ -7,6 +7,7 @@ function Router() {
       <ul>
         <li><Link to={"/react-icons"}>react-icons</Link></li>
         <li><Link to={"/react-toastify"}>react-toastify</Link></li>
+        <li><Link to={"/react-modal"}>react-modal</Link></li>
       </ul>
     </div>
   );

@@ -8,9 +8,11 @@ import { IconContext } from "react-icons/lib";
 const notes = `
 ## React Icons
 
-- **Purpose:** Single unified library that allows us to easily use popular icons in React via ES6 imports. (only loads icons that we use)
-- **Install:** npm install react-icons
-- [react-icons-documentation](https://react-icons.github.io/react-icons/)
+Single unified library that allows us to easily use popular icons in React via ES6 imports. (only loads icons that we use)
+
+**Installation:** \`npm install react-icons\`
+
+**Documentation:** [react-icons](https://react-icons.github.io/react-icons/)
 
 #### Usage
 
@@ -20,7 +22,7 @@ const notes = `
 
 - Props: color ("dodgerBlue"), size ("4rem")
 
-- Global styling -
+- Global styling using IconContext.
   \`\`\`jsx
   import { IconContext } from "react-icons";
 
