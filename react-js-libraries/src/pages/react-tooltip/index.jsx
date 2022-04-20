@@ -23,7 +23,7 @@ Tippy.js is a versatile, lightweight JavaScript library used to create tooltips,
 
 - To use a Custom component as a child inside the Tippy component, we need to forward a ref to the DOM node, we can do this using the forwardRef technique.
 
-- Props:
+- Props -
   - arrow (determines if tooltip has an arrow)
   - delay (adds a delay in showing & hiding the tooltip, value should be in milliseconds)
   - placement (location where to display the tooltip possible values are top, bottom, left & right, default value is top)
