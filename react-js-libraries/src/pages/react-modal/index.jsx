@@ -4,7 +4,7 @@ import { useState } from "react";
 import Modal from "react-modal";
 
 const notes = `
-## React Toastify
+## React Modal
 
 Provides accessible modal dialog for react applications. It is designed to provide a flexible foundation for building pop-up dialogs while strictly adhering to WAI-ARIA accessibility.
 
@@ -42,14 +42,8 @@ function ReactModal() {
         onRequestClose={() => setIsModalOpen(false)}
         shouldCloseOnOverlayClick={false}
         style={{
-          content: {
-            backgroundColor: "#222",
-            margin: "auto",
-            width: "50%",
-          },
-          overlay: {
-            backgroundColor: "#1d1d1dd9",
-          },
+          content: { backgroundColor: "#222", margin: "auto", width: "50%" },
+          overlay: { backgroundColor: "#1d1d1dd9" },
         }}
       >
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>

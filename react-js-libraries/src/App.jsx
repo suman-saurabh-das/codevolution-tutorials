@@ -8,6 +8,7 @@ import ReactToastify from "./pages/react-toastify";
 import ReactModal from "./pages/react-modal";
 import ReactTooltip from "./pages/react-tooltip";
 import ReactCountup from "./pages/react-countup";
+import ReactIdleTimer from "./pages/react-idle-timer";
 import Error from "./pages/Error";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
             <Route path="/react-modal" element={<ReactModal />} />
             <Route path="/react-tooltip" element={<ReactTooltip />} />
             <Route path="/react-countup" element={<ReactCountup />} />
+            <Route path="/react-idle-timer" element={<ReactIdleTimer />} />
             <Route path="*" element={<Error />} />
           </Routes>
         </div>

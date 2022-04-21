@@ -4,7 +4,7 @@ import ReactMarkdown from "react-markdown";
 import CountUp, { useCountUp } from "react-countup";
 
 const notes = `
-## React countup
+## React Countup
 
 react-countup is a React component wrapper for CountUp.js, a lightweight JavaScript library used to create animations that display numerical values counting up (or down) to a specific target.
 
@@ -54,13 +54,7 @@ function ReactCountUp() {
       &emsp;
       <CountUp duration={5} decimals={2} prefix="$" start={1000} end={2000} />
       &emsp;
-      <CountUp
-        duration={5}
-        decimals={2}
-        suffix=" USD"
-        start={1000}
-        end={2000}
-      />
+      <CountUp duration={5} decimals={2} suffix=" USD" start={1000} end={2000}/>
       <hr />
       <h3>Controlling the countup value using useCountUp hook</h3>
       <h4>

@@ -5,7 +5,7 @@ import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css"; // optional for styling
 
 const notes = `
-## Tippy.js
+## React Tooltip - Tippy.js
 
 Tippy.js is a versatile, lightweight JavaScript library used to create tooltips, popovers, dropdowns, and menus. It is powered by Popper, a positioning engine that ensures floating elements stay correctly aligned with their target elements even during scrolling or window resizing.
 
