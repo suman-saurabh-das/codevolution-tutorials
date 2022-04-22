@@ -11,6 +11,7 @@ function Router() {
         <li><Link to={"/react-tooltip"}>react-tooltip</Link></li>
         <li><Link to={"/react-countup"}>react-countup</Link></li>
         <li><Link to={"/react-idle-timer"}>react-idle-timer</Link></li>
+        <li><Link to={"/react-color"}>react-color</Link></li>
       </ul>
     </div>
   );

@@ -9,6 +9,7 @@ import ReactModal from "./pages/react-modal";
 import ReactTooltip from "./pages/react-tooltip";
 import ReactCountup from "./pages/react-countup";
 import ReactIdleTimer from "./pages/react-idle-timer";
+import ReactColor from "./pages/react-color";
 import Error from "./pages/Error";
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
             <Route path="/react-tooltip" element={<ReactTooltip />} />
             <Route path="/react-countup" element={<ReactCountup />} />
             <Route path="/react-idle-timer" element={<ReactIdleTimer />} />
+            <Route path="/react-idle-timer" element={<ReactIdleTimer />} />
+            <Route path="/react-color" element={<ReactColor />} />
             <Route path="*" element={<Error />} />
           </Routes>
         </div>
