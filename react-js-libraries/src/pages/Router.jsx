@@ -12,6 +12,7 @@ function Router() {
         <li><Link to={"/react-countup"}>react-countup</Link></li>
         <li><Link to={"/react-idle-timer"}>react-idle-timer</Link></li>
         <li><Link to={"/react-color"}>react-color</Link></li>
+        <li><Link to={"/react-credit-cards"}>react-credit-cards</Link></li>
       </ul>
     </div>
   );
