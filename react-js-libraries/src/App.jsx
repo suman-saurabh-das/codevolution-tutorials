@@ -12,6 +12,7 @@ import ReactIdleTimer from "./pages/react-idle-timer";
 import ReactColor from "./pages/react-color";
 import ReactCreditCards from "./pages/react-credit-cards";
 import ReactDatePicker from "./pages/react-date-picker";
+import ReactPresentationDeck from "./pages/react-presentation-deck";
 import Error from "./pages/Error";
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
             <Route path="/react-color" element={<ReactColor />} />
             <Route path="/react-credit-cards" element={<ReactCreditCards />} />
             <Route path="/react-date-picker" element={<ReactDatePicker />} />
+            <Route path="/react-presentation-deck" element={<ReactPresentationDeck />} />
             <Route path="*" element={<Error />} />
           </Routes>
         </div>

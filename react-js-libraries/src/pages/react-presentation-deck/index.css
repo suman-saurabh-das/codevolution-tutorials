@@ -1,0 +1,31 @@
+/* container takes full width & height  */
+.sc-gEvEer {
+  height: 100vh !important;
+  width: 100vw !important;
+  transform: scale(1) !important;
+  transform-origin: 0 !important;
+}
+
+/* custom slide width */
+.sc-fUnMCh {
+  margin: 0 auto !important;
+  max-width: 80% !important;
+}
+
+/* background color changed from default blue */
+.sc-feUZmu {
+  background-color: #111 !important;
+}
+
+/* heading styles */
+.sc-jEACwC {
+  color: goldenrod !important;
+  font-size: 48px !important;
+}
+
+/* text styles */
+/* listItem styles */
+.sc-dAlyuH, .sc-eldPxv {
+  color: lightyellow !important;
+  font-size: 24px !important;
+}
