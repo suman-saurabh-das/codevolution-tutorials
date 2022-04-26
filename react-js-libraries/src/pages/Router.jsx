@@ -15,6 +15,7 @@ function Router() {
         <li><Link to={"/react-credit-cards"}>react-credit-cards</Link></li>
         <li><Link to={"/react-date-picker"}>react-date-picker</Link></li>
         <li><Link to={"/react-presentation-deck"}>react-presentation-deck</Link></li>
+        <li><Link to={"/react-player"}>react-player</Link></li>
       </ul>
     </div>
   );
