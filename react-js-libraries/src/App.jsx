@@ -14,6 +14,7 @@ import ReactCreditCards from "./pages/react-credit-cards";
 import ReactDatePicker from "./pages/react-date-picker";
 import ReactPresentationDeck from "./pages/react-presentation-deck";
 import ReactVideoPlayer from "./pages/react-player";
+import ReactSpinners from "./pages/react-spinners";
 import Error from "./pages/Error";
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
             <Route path="/react-date-picker" element={<ReactDatePicker />} />
             <Route path="/react-presentation-deck" element={<ReactPresentationDeck />} />
             <Route path="/react-player" element={<ReactVideoPlayer />} />
+            <Route path="/react-spinners" element={<ReactSpinners />} />
             <Route path="*" element={<Error />} />
           </Routes>
         </div>

@@ -5,6 +5,8 @@ import ReactPlayer from "react-player";
 const notes = `
 ## React Player (Video player)
 
+ReactPlayer is a popular, highly customizable React component used to play media from various URLs, including file paths and third-party platforms like YouTube, Vimeo, and Twitch.
+
 **Installation:** \`npm i react-player\`
 
 **Documentation:** [react-player](https://github.com/cookpete/react-player)
