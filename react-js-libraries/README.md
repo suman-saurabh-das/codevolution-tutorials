@@ -10,6 +10,20 @@
 
 ## Course Content
 
+- react-icons (icons)
+- react-toastify (toast notifications)
+- react-modal (modal)
+- react-tooltip (tooltip)
+- react-countup (count numbers from start to end value)
+- react-idle-timer (idle timer)
+- react-color (color picker)
+- react-credit-cards (credit card)
+- react-date-picker (date picker)
+- react-presentation-deck (slides)
+- react-player (video player)
+- react-spinners (loading indicators)
+- react-chart (charts)
+
 ## Technologies Used
 
 `axios` `react.js` `react-router-dom` `react-markdown`
@@ -23,7 +37,7 @@
 
 ## Status
 
-- React JS Libraries is in progress.
+- React JS Libraries is completed on 28th April 2022.
 
 ## Credits
 

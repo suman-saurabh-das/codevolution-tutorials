@@ -17,6 +17,7 @@ function Router() {
         <li><Link to={"/react-presentation-deck"}>react-presentation-deck</Link></li>
         <li><Link to={"/react-player"}>react-player</Link></li>
         <li><Link to={"/react-spinners"}>react-spinners</Link></li>
+        <li><Link to={"/react-chart"}>react-chart</Link></li>
       </ul>
     </div>
   );
